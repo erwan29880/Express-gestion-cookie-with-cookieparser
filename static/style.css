@@ -1,0 +1,75 @@
+body{
+    width: 70%;
+    margin: auto;
+    --col : rgb(119, 217, 119);
+}
+
+.flexi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    background-color: var(--col);
+    border-radius: 7px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: rgb(71, 173, 71);
+}
+
+.menu {
+    width: 150px;
+    margin: 0px 10px;
+}
+
+.container {
+    border: 1px solid lightgray;
+    padding: 20px 10px;
+    margin: 25px 0px;
+    border-radius: 7px;
+    box-shadow: -2px 5px 5px lightgray;
+}
+
+#encart-cookie{
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: var(--col);
+    border-radius: 7px;
+}
+
+.cent {
+    text-align: center;
+}
+
+.accepter {
+    background-color: rgb(126, 126, 200);
+    transition-duration: 0.4s;
+    margin: 0px 10px;
+}
+.refuser {
+    background-color: rgb(216, 118, 118);
+    transition-duration: 0.4s;
+    margin: 0px 10px;
+}
+.accepter:hover {
+    background-color: rgb(81, 81, 192);
+}
+.refuser:hover {
+    background-color: rgb(159, 44, 44);
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a.visited{
+    text-decoration: none;
+    color: black;
+}
